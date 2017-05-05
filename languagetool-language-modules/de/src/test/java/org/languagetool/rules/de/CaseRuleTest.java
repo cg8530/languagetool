@@ -105,6 +105,7 @@ public class CaseRuleTest {
     assertGood("Es gab Überlebende.");
 
     assertBad("Er ist Groß.");
+    assertBad("Die Zahl ging auf Über 1.000 zurück.");
     assertBad("Er sammelt Große und kleine Tassen.");
     assertBad("Er sammelt Große, mittlere und kleine Tassen.");
     assertBad("Dann will sie mit London Über das Referendum verhandeln.");
@@ -116,6 +117,9 @@ public class CaseRuleTest {
     assertBad("Unser warten wird sich lohnen.");
     assertBad("Tom kann mit fast Allem umgehen.");
     assertBad("Dabei Übersah er sie.");
+    assertBad("Der Brief wird am Mittwoch in Brüssel Übergeben.");
+    assertBad("Damit sollen sie die Versorgung in der Region Übernehmen.");
+    assertGood("Ich möchte zwei Kilo Zwiebeln.");
     // "NIL" reading in Morphy that used to confuse CaseRule:
     assertGood("Ein Menschenfreund.");
     // works only thanks to addex.txt:
@@ -155,6 +159,7 @@ public class CaseRuleTest {
     assertBad("Er sagt, dass Geistliche und weltliche Würdenträger davon betroffen sind.");
     assertBad("Er ist begeistert Von der Fülle.");
     assertBad("Er wohnt Über einer Garage.");
+    assertBad("„Weißer Rauch“ Über Athen");
 
     assertGood("Man sagt, Liebe mache blind.");
     assertGood("Die Deutschen sind sehr listig.");
@@ -175,9 +180,12 @@ public class CaseRuleTest {
     // used to trigger error because of "abbreviation"
     assertGood("Sie fällt auf durch ihre hilfsbereite Art. Zudem zeigt sie soziale Kompetenz.");
     
-    // TODO: nach dem Doppelpunkt wird derzeit nicht auf groß/klein getestet:
     assertGood("Das ist es: kein Satz.");
-    assertGood("Das ist es: Kein Satz.");
+    assertGood("Werner Dahlheim: Die Antike.");
+    assertGood("1993: Der talentierte Mr. Ripley");
+    assertGood("Ian Kershaw: Der Hitler-Mythos: Führerkult und Volksmeinung.");
+    assertBad("Das ist es: Kein Satz.");
+    assertBad("Wen magst du lieber: Die Giants oder die Dragons?");
 
     assertGood("Das wirklich Wichtige ist dies:");
     assertGood("Das wirklich wichtige Verfahren ist dies:");
@@ -208,13 +216,13 @@ public class CaseRuleTest {
     assertGood("Das dabei Erlernte und Erlebte ist sehr nützlich.");
     assertBad("Das dabei erlernte und Erlebte Wissen ist sehr nützlich.");
     assertGood("Ein Kapitän verlässt als Letzter das sinkende Schiff.");
+    assertBad("Diese Regelung wurde als Überholt bezeichnet.");
     assertBad("Die Dolmetscherin und Der Vorleser gehen spazieren.");
     assertGood("Es hilft, die Harmonie zwischen Führer und Geführten zu stützen.");
     assertGood("Das Gebäude des Auswärtigen Amts.");
     assertGood("Das Gebäude des Auswärtigen Amtes.");
     assertGood("   Im Folgenden beschreibe ich das Haus."); // triggers WHITESPACE_RULE, but should not trigger CASE_RULE (see github #258)
-    assertGood("\"Im Folgenden beschreibe ich das Haus.\""); //triggers TYPOGRAFISCHE_ANFUEHRUNGSZEICHEN, but should not trigger CASE_RULE 
-    //assertBad("Peter Peterson, dessen Namen auf griechisch Stein bedeutet.");
+    assertGood("\"Im Folgenden beschreibe ich das Haus.\""); //triggers TYPOGRAFISCHE_ANFUEHRUNGSZEICHEN, but should not trigger CASE_RULE
     assertGood("Gestern habe ich 10 Spieße gegessen.");
     assertGood("Die Verurteilten wurden mit dem Fallbeil enthauptet.");
     assertGood("Den Begnadigten kam ihre Reue zugute.");
@@ -231,6 +239,7 @@ public class CaseRuleTest {
     assertBad("Das sagen haben hier viele.");
     assertGood("Die zum Tode Verurteilten wurden in den Hof geführt.");
     assertGood("Wenn Sie das schaffen, retten Sie mein Leben!");
+    assertGood("Etwas Grünes, Schleimiges klebte an dem Stein.");
   }
 
   private void assertGood(String input) throws IOException {
@@ -292,7 +301,7 @@ public class CaseRuleTest {
   public void testPhraseExceptions() throws IOException {
     // correct sentences:
     assertGood("Das gilt ohne Wenn und Aber.");
-    assertGood("ohne Wenn und Aber");
+    assertGood("Ohne Wenn und Aber");
     assertGood("Das gilt ohne Wenn und Aber bla blubb.");
     // as long as phrase exception isn't complete, there's no error:
     assertGood("Das gilt ohne wenn");

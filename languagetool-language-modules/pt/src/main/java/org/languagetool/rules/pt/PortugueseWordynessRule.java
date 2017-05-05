@@ -27,23 +27,22 @@ import org.languagetool.rules.ITSIssueType;
 import java.io.IOException;
 import java.util.Locale;
 import java.util.ResourceBundle;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
- * A rule that matches words which should not be used and suggests correct ones instead. 
- * Romanian implementations. Loads the list of words from
- * <code>/ro/replace.txt</code>.
+ * A rule that matches wordy expressions. 
+ * Portuguese implementation. Loads the list of words from
+ * <code>/pt/wordiness.txt</code>.
  *
  * @author Tiago F. Santos 
- * @since 3.6
+ * @since 3.8
  */
-public class PortugueseClicheRule extends AbstractSimpleReplaceRule2 {
+public class PortugueseWordynessRule extends AbstractSimpleReplaceRule2 {
 
-  public static final String PORTUGUESE_CLICHE_RULE = "PT_CLICHE_REPLACE";
+  public static final String PT_WORDYNESS_REPLACE = "PT_WORDYNESS_REPLACE";
 
-  private static final String FILE_NAME = "/pt/cliches.txt";
+  private static final String FILE_NAME = "/pt/wordiness.txt";
   private static final Locale PT_LOCALE = new Locale("pt");  // locale used on case-conversion
 
   @Override
@@ -51,32 +50,32 @@ public class PortugueseClicheRule extends AbstractSimpleReplaceRule2 {
     return FILE_NAME;
   }
 
-  public PortugueseClicheRule(ResourceBundle messages) throws IOException {
+  public PortugueseWordynessRule(ResourceBundle messages) throws IOException {
     super(messages, new Portuguese());
-    super.setCategory(Categories.STYLE.getCategory(messages));
+    super.setCategory(Categories.REDUNDANCY.getCategory(messages));
     setLocQualityIssueType(ITSIssueType.Style);
-    addExamplePair(Example.wrong("<marker>quente como uma fornalha</marker>"),
-                   Example.fixed("<marker>quente</marker>"));
+    addExamplePair(Example.wrong("<marker>Raramente é o caso em que acontece</marker> isto."),
+                   Example.fixed("<marker>Raramente acontece</marker> isto."));
   }
 
   @Override
   public final String getId() {
-    return PORTUGUESE_CLICHE_RULE;
+    return PT_WORDYNESS_REPLACE;
   }
 
   @Override
   public String getDescription() {
-    return "Frases-feitas e expressões idiomáticas.";
+    return "2. Expressões prolixas";
   }
 
   @Override
   public String getShort() {
-    return "Frase-feita";
+    return "Expressão prolixa";
   }
 
   @Override
   public String getSuggestion() {
-    return " é uma frase-feita. É preferível dizer ";
+    return " é uma expressão desnecessariamente complexa. É preferível dizer ";
   }
 
   @Override
@@ -87,7 +86,7 @@ public class PortugueseClicheRule extends AbstractSimpleReplaceRule2 {
   @Override
   public URL getUrl() {
     try {
-      return new URL("https://pt.wikipedia.org/wiki/Clichê");
+      return new URL("https://pt.wikipedia.org/wiki/V%C3%ADcio_de_linguagem#Prolixidade_ou_preciosismo");
     } catch (MalformedURLException e) {
       throw new RuntimeException(e);
     }
