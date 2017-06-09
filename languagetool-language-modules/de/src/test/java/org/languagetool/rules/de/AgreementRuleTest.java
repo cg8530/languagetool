@@ -83,6 +83,7 @@ public class AgreementRuleTest {
     assertGood("Mancher ausscheidende Politiker hinterlässt eine Lücke.");
     assertGood("Kern einer jeden Tragödie ist es, ..");
     assertGood("Das wenige Sekunden alte Baby schrie laut.");
+    assertGood("Meistens sind das Frauen, die damit besser umgehen können.");
 
     assertGood("Das Dach von meinem Auto.");
     assertGood("Das Dach von meinen Autos.");
@@ -173,6 +174,7 @@ public class AgreementRuleTest {
     assertGood("Extras, die den Wert Ihres Autos erhöhen.");
     assertGood("Er hat einen 34-jährigen Sohn.");
     assertGood("Die Polizei erwischte die Diebin, weil diese Ausweis und Visitenkarte hinterließ.");
+    assertGood("Dieses Versäumnis soll vertuscht worden sein - es wurde Anzeige erstattet.");
 
     // incorrect sentences:
     assertBad("Er hat eine 34-jährigen Sohn.");

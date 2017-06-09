@@ -103,6 +103,7 @@ public class CaseRuleTest {
     assertGood("Tom vollbringt Außerordentliches.");
     assertGood("Er führt Böses im Schilde.");
     assertGood("Es gab Überlebende.");
+    assertGood("'Wir werden das stoppen.'");
 
     assertBad("Er ist Groß.");
     assertBad("Die Zahl ging auf Über 1.000 zurück.");
@@ -119,6 +120,7 @@ public class CaseRuleTest {
     assertBad("Dabei Übersah er sie.");
     assertBad("Der Brief wird am Mittwoch in Brüssel Übergeben.");
     assertBad("Damit sollen sie die Versorgung in der Region Übernehmen.");
+    assertBad("Die Unfallursache scheint geklärt, ein Lichtsignal wurde Überfahren.");
     assertGood("Ich möchte zwei Kilo Zwiebeln.");
     // "NIL" reading in Morphy that used to confuse CaseRule:
     assertGood("Ein Menschenfreund.");
@@ -134,6 +136,7 @@ public class CaseRuleTest {
 
     assertGood("Anders als physikalische Konstanten werden mathematische Konstanten unabhängig von jedem physikalischen Maß definiert.");
     assertGood("Eine besonders einfache Klasse bilden die polylogarithmischen Konstanten.");
+    assertGood("Das südlich von Berlin gelegene Dörfchen.");
     
     assertGood("Sie werden im Allgemeinen gefasst.");
     assertGood("Sie werden im allgemeinen Fall gefasst.");

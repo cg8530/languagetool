@@ -137,7 +137,9 @@ public class Portuguese extends Language implements AutoCloseable {
             new CommaWhitespaceRule(messages,
                 Example.wrong("Tomamos café<marker> ,</marker> queijo, bolachas e uvas."),
                 Example.fixed("Tomamos café<marker>,</marker> queijo, bolachas e uvas")),
-            new GenericUnpairedBracketsRule(messages),
+            new GenericUnpairedBracketsRule(messages,
+                    Arrays.asList("[", "(", "{", "\"", "“" /*, "«", "'", "‘" */),
+                    Arrays.asList("]", ")", "}", "\"", "”" /*, "»", "'", "’" */)),
             new HunspellRule(messages, this),
             new LongSentenceRule(messages, 45, true),
             new UppercaseSentenceStartRule(messages, this,
@@ -156,7 +158,8 @@ public class Portuguese extends Language implements AutoCloseable {
             new PortugueseWordRepeatRule(messages, this),
             new PortugueseWordRepeatBeginningRule(messages, this),
             new PortugueseAccentuationCheckRule(messages),
-            new PortugueseWrongWordInContextRule(messages)
+            new PortugueseWrongWordInContextRule(messages),
+            new PortugueseWordCoherencyRule(messages)
     );
   }
 
@@ -194,21 +197,29 @@ public class Portuguese extends Language implements AutoCloseable {
   public int getPriorityForId(String id) {
     switch (id) {
       case "FRAGMENT_TWO_ARTICLES":     return 50;
+      case "DEGREE_MINUTES_SECONDS":    return 20;
       case "INTERJECTIONS_PUNTUATION":  return  5;
+      case "UNPAIRED_BRACKETS":         return -5;
+      case "PROFANITY":                 return -6;
       case "PT_MULTI_REPLACE":          return -10;
       case "PT_PT_SIMPLE_REPLACE":      return -11;
       case "PT_REDUNDANCY_REPLACE":     return -12;
       case "PT_WORDYNESS_REPLACE":      return -13;
       case "PT_CLICHE_REPLACE":         return -17;
-      case "HUNSPELL_RULE":             return -20;
-      case "CRASE_CONFUSION":           return -25;
-      case "FINAL_STOPS":               return -35;
-      case "T-V_DISTINCTION":           return -50;
-      case "T-V_DISTINCTION_ALL":       return -51;
-      case "REPEATED_WORDS":            return -90;
-      case "REPEATED_WORDS_3X":         return -91;
-      case "WIKIPEDIA_COMMON_ERRORS":   return -100;
+      case "CHILDISH_LANGUAGE":         return -25;
+      case "ARCHAISMS":                 return -26;
+      case "INFORMALITIES":             return -27;
+      case "PT_AGREEMENT_REPLACE":      return -35;
+      case "HUNSPELL_RULE":             return -50;
+      case "CRASE_CONFUSION":           return -55;
+      case "FINAL_STOPS":               return -75;
+      case "T-V_DISTINCTION":           return -100;
+      case "T-V_DISTINCTION_ALL":       return -101;
+      case "REPEATED_WORDS":            return -210;
+      case "REPEATED_WORDS_3X":         return -211;
+      case "WIKIPEDIA_COMMON_ERRORS":   return -500;
       case "TOO_LONG_SENTENCE":         return -1000;
+      case "CACOPHONY":                 return -2000;
     }
     return 0;
   }

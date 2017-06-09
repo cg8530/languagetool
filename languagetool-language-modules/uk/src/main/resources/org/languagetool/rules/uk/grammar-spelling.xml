@@ -240,6 +240,9 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
         <example>ми скористалися службою «Інфо300»</example>
         <example>АН4774087</example>
         <example>в підпункті 14а</example>
+        <!-- часто виноски втрачають суперскрипт і стають числами після слова
+        <example>абстракція11</example>
+        -->
       </rule>
 
       <rule>
@@ -602,6 +605,17 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
       </pattern>
       <message>Правильно: <suggestion><match no="1" regexp_match="([А-ЯІЇЄҐ].*-[Рр])[иі](вер)" regexp_replace="$1и$2"/></suggestion></message>
       <example correction="Іст-Ривер"><marker>Іст-Рівер</marker>.</example>
+    </rule>
+
+
+    <rule id="BABUSIV" name="Бабусів">
+      <pattern>
+        <token regexp="yes">бабусів(-.+)?</token>
+      </pattern>
+      <message>Неправильна форма</message>
+      <suggestion>бабусь</suggestion>
+      <suggestion>бабусин</suggestion>
+      <example correction="бабусь|бабусин">до тих <marker>бабусів-дідусів</marker>.</example>
     </rule>
 
 <!-- 
