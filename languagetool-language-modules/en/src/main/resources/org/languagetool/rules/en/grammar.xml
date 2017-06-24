@@ -9357,7 +9357,7 @@ USA
             <rule>
                 <pattern>
                     <token><exception postag="DT|WDT|JJ|NN.*" postag_regexp="yes"/></token>
-                    <token regexp="yes">take|takes</token>
+                    <token regexp="yes">takes?</token>
                     <marker>
                         <token postag="NN"><exception regexp="yes">place|charge</exception><exception postag="DT|WRB|RB|RP|JJ|IN|CC|CD|JJR|RBS|VBD|VBN|MD|NNP|NNS" postag_regexp="yes"/></token>
                     </marker>
@@ -9372,7 +9372,7 @@ USA
             <rule>
                 <pattern>
                     <token><exception postag="DT|WDT|JJ|NN.*" postag_regexp="yes"/></token>
-                    <token regexp="yes">give|gives</token>
+                    <token regexp="yes">gives?</token>
                     <marker>
                         <token postag="NN"><exception regexp="yes">rise|way|room|vent|rein</exception><exception postag="DT|WRB|RB|RP|JJ|IN|CC|CD|JJR|RBS|VBD|VBN|MD|NNP|NNS" postag_regexp="yes"/></token>
                     </marker>
@@ -9402,7 +9402,7 @@ USA
             <rule>
                 <pattern>
                     <token><exception postag="DT|WDT|JJ|NN.*" postag_regexp="yes"/></token>
-                    <token regexp="yes">falls|fall</token>
+                    <token regexp="yes">falls?</token>
                     <marker>
                         <token postag="NN"><exception>victim</exception><exception postag="DT|WRB|RB|RP|JJ|IN|CC|CD|JJR|RBS|VBD|VBN|MD|NNP|NNS" postag_regexp="yes"/></token>
                     </marker>
@@ -9450,7 +9450,7 @@ USA
             <rule>
                 <pattern>
                     <token postag="PRP|NNP" postag_regexp="yes"/>
-                    <token regexp="yes">have|has|had</token>
+                    <token regexp="yes">have|ha[ds]</token>
                     <marker>
                         <token postag="VBN"><exception postag="VB|RP|WRB|RB|CD|IN|CC|MD" postag_regexp="yes"/></token>
                         <token postag="JJ"><exception postag="VB|RP|WRB|RB|CD|IN|CC|MD|DT|WDT" postag_regexp="yes"/></token>
@@ -10858,11 +10858,16 @@ USA
         <rulegroup id="HE_VERB_AGR" name="Agreement error: Non-third person verb with 'he/she'">
             <short>Agreement error</short>
             <rule>
+                <antipattern>
+                    <token>with</token>
+                    <token regexp="yes">every(one|body)</token>
+                    <token postag="VBG"/>
+                </antipattern>
                 <pattern>
                     <token negate="yes" regexp="yes"><exception inflected="yes" regexp="yes">feel|hear|see|insist|suggest|help|prevent|stop|of|have|be</exception>(that|how|will|must|could|can|should|would|does|did|may|might|t|let|dare|lest|without|into)</token>
-                    <token regexp="yes">he|she|someone|somebody|nobody|anyone</token>
+                    <token regexp="yes">s?he|(any|every|no|some)(one|body)</token>
                     <marker>
-                        <token postag="VB|VBG|VBP" postag_regexp="yes"><exception postag="VBN|VBD|JJ.*|RB|MD" postag_regexp="yes"/></token>
+                        <token postag="VB[GP]?" postag_regexp="yes"><exception postag="VB[ND]|JJ.*|RB|MD" postag_regexp="yes"/></token>
                     </marker>
                     <token><exception regexp="yes">['’]</exception></token>
                 </pattern>
@@ -10877,12 +10882,14 @@ USA
                 <example>I find it hard to understand how anyone seeking a position in public life could demonstrate...</example>
                 <example>He was busy, he said, in having someone submit to a monkey-gland operation.</example>
                 <example>What's he going to do?</example>
+                <example correction="hates">Everybody <marker>hate</marker> to hear bad news.</example>
                 <example type="triggers_error">Nobody move!</example>
+                <example>The bride came into the room, with everyone staring at her.</example>
             </rule>
             <rule>
                 <pattern>
                     <token negate="yes" regexp="yes"><exception inflected="yes" regexp="yes">feel|hear|see|insist|suggest|help|prevent|stop|of|have|be</exception>(that|how|will|must|could|can|should|would|does|did|may|might|t|let|dare|lest|without|into)</token>
-                    <token regexp="yes">he|she|someone|somebody|nobody|anyone</token>
+                    <token regexp="yes">s?he|some(one|body)|nobody|anyone</token>
                     <marker>
                         <token postag="VB|VBG|VBP" postag_regexp="yes"><exception postag="VBN|VBD|JJ.*|RB|MD" postag_regexp="yes"/></token>
                         <token regexp="yes">['’]</token>
@@ -10895,7 +10902,7 @@ USA
             <rule>
                 <pattern>
                     <token negate="yes" regexp="yes"><exception inflected="yes" regexp="yes">feel|hear|see|prevent|help|stop|suggest</exception>(that|ha[sd]|will|must|could|can|should|would|does|did|is|may|might|t|was|dare|lest|without)</token>
-                    <token regexp="yes">he|she|someone|somebody|nobody|anyone</token>
+                    <token regexp="yes">s?he|some(one|body)|nobody|anyone|every(body|one)</token>
                     <token postag="RB"><exception postag="VBD"/></token>
                     <marker>
                         <token postag="VB|VBG|VBP" postag_regexp="yes"><exception postag="VBN|VBD|JJ.*|RB|MD" postag_regexp="yes"/></token>
@@ -10909,7 +10916,7 @@ USA
             <rule>
                 <pattern>
                     <token negate="yes" regexp="yes"><exception inflected="yes" regexp="yes">feel|hear|see|prevent|help|stop|suggest</exception>(that|ha[ds]|will|must|could|can|should|would|does|did|is|may|might|t|s|let|was|dare|lest|without)</token>
-                    <token regexp="yes">someone|somebody|nobody|anyone</token>
+                    <token regexp="yes">some(one|body)|nobody|anyone</token>
                     <token>else</token>
                     <marker>
                         <token postag="VB|VBG|VBP" postag_regexp="yes"><exception postag="VBN|VBD|JJ.*|RB|MD" postag_regexp="yes"/></token>
@@ -10925,7 +10932,7 @@ USA
             <rule>
                 <pattern>
                     <token negate="yes" regexp="yes"><exception inflected="yes" regexp="yes">feel|hear|see|prevent|help|stop|suggest</exception>(that|ha[ds]|will|must|could|can|should|would|does|did|is|may|might|t|let|was|dare|lest|without)</token>
-                    <token regexp="yes">someone|somebody|nobody|anyone</token>
+                    <token regexp="yes">some(one|body)|nobody|anyone</token>
                     <token>else</token>
                     <token postag="RB"/>
                     <marker>
@@ -11182,7 +11189,7 @@ USA
             <pattern>
                 <token regexp="yes">kind|sort|type</token>
                 <token>of</token>
-                <token regexp="yes">an|a</token>
+                <token regexp="yes">an?</token>
             </pattern>
             <message>Don't include '\3' after a classification term. Use simply <suggestion>\1 \2</suggestion>.</message>
             <short>Grammatical problem: unnecessary 'a/an'</short>
@@ -17090,6 +17097,33 @@ USA
                 <message>Did you mean <suggestion>supper</suggestion> (=evening meal)</message>
                 <short>Commonly confused word</short>
                 <example correction="supper">After I had eaten my <marker>super</marker>, I went straight to bed.</example>
+            </rule>
+        </rulegroup>
+        <rulegroup id="PERSONAL_PERSONNEL" name="personal (personnel)">
+            <rule>
+                <pattern>
+                    <token>of</token>
+                    <marker><token>personal</token></marker>
+                    <token postag="SENT_END" regexp="yes">\W+|at|if</token>
+                </pattern>
+                <message>Did you mean the noun <suggestion>personnel</suggestion>?</message>
+                <example correction="personnel">She's the director of <marker>personal</marker>.</example>
+            </rule>
+            <rule>
+                <pattern>
+                    <token regexp="yes">a(rmou?red|uthorized)|m(ilitary|edical)|technical|key|naval|qualified</token>
+                    <marker><token>personal</token></marker>
+                </pattern>
+                <message>Did you mean the noun <suggestion>personnel</suggestion>?</message>
+                <example correction="personnel">For authorized <marker>personal</marker> only.</example>
+            </rule>
+            <rule>
+                <pattern>
+                    <marker><token>personal</token></marker>
+                    <token regexp="yes">d(epartment|irector)s?|manag(er|ment)s?|files?|officer?s?</token>
+                </pattern>
+                <message>Did you mean the noun <suggestion>personnel</suggestion>?</message>
+                <example correction="personnel">He is the <marker>personal</marker> director.</example>
             </rule>
         </rulegroup>
     </category>

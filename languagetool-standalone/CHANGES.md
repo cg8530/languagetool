@@ -6,6 +6,9 @@
   * added and improved rules
   * updated dictionary and rules for official names of Valencian municipalities
 
+#### Dutch
+  * added some rules (by Ruud Baars)
+
 #### English
   * added and improved rules
 
@@ -33,10 +36,20 @@
     - Portuguese to Spanish (7 new pairs)
   * spell checking exceptions for common Latin, English and French expressions, species scientific names,
     and famous personalities
-  * [pt-BR] hunspell dictionary updated to latest VERO version (2.1.4)
+  * updated Hunspell dictionaries to:
+    - [pt-PT pos-AO] Dicionários Portugueses Complementares 1.4
+    - [pt-BR]        VERO version 2.1.4
 
 #### Slovak
   * major rule updates by Matúš Matula
+
+#### Ukrainian
+  * Significant dictionary update:
+    - thousands of new words
+    - some inflection adjustments
+  * Improved dynamic tagging for compound words
+  * Many new rules (barbarism, grammar, and spelling)
+  * New noun-verb agreement rule
 
 #### HTTP API
   * The deprecated AfterTheDeadline mode has been removed

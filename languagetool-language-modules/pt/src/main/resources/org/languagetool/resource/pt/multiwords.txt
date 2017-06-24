@@ -276,82 +276,125 @@ visto que	CS
 ####################################################
 ###                   Proper names               ###
 ####################################################
-
-Bartolomeu Dias	NPMS000_
-
-# From Catalan and Spanish multiword.txt
-# Date 14-11-2016
+# Partially from 14-11-2016 Catalan and Spanish multiword.txt 
 
 Aberri Eguna	NPMSO00_
+Abraham Lincoln	NPMSSP0_
 Abu Dhabi	NPCNG00_
 Abu Ghraib	NPCNG00_
 Abu Simbel	NPCNG00_
+Addams Family	NPMSSP0_
 Addis Abeba	NPCNG00_
-Adrar des Iforas	NPCNG00_
+Adrar des	NPCNG00_
+des Iforas	NPCNG00_
+Aïoun el-Atrouss	NPCNG00_
 Al Capone	NPMSSP0_
+Alan Stivell	NPMSSP0_
+Alanis Morissette	NPFSSP0_
 Alba Iulia	NPCNG00_
 Alcalá de Guadaíra	NPCNG00_
 Alcalá de Henares	NPCNG00_
 Alfa Romeo	NPMNG00_
+Alison Krauss	NPFSSP0_
 Alps Càrnics	NPCNG00_
 Alta Vienne	NPFSG00_
 Altin Tagh	NPCNG00_
+Alyssa Milano	NPFSSP0_
 Andhra Pradesh	NPCNG00_
+Andre Agassi	NPMSSP0_
+Andreas Baader	NPMSSP0_
 Antígua e Barbuda	NPFSG00_
+Arnold Schwarzenegger	NPMSSP0_
+Artur Avila	NPMSSP0_
 Ascoli Piceno	NPCNG00_
 Ax 3 Domaines	NPCNG00_
-Aïoun el-Atrouss	NPCNG00_
+Axl Rose	NPMSSP0_
 Baba Amr	NPCNG00_
 Bahía Blanca	NPCNG00_
+Ban Ki-moon	NPMSSP0_
 Banda Aceh	NPCNG00_
 Bandar Abbas	NPCNG00_
-Bandar Seri Begawan	NPCNG00_
+Bandar Seri	NPCNG00_
+Seri Begawan	NPCNG00_
 Bani Walid	NPCNG00_
 Banja Luka	NPCNG00_
+Barbara Hendricks	NPFSSP0_
+Barbra Streisand	NPFSSP0_
+Bartolomeu Dias	NPMS000_
 Baton Rouge	NPCNG00_
+Beastie Boys	NPMSSP0_
 Beer Sheva	NPCNG00_
 Beit Hanoun	NPCNG00_
 Belo Horizonte	NPCNG00_
 Ben Jawad	NPCNG00_
 Beni Suef	NPCNG00_
+Bernez Tangi	NPMSSP0_
+Bill Gates	NPMSSP0_
+Billie Holiday	NPMSSP0_
+Billy Squier	NPMSSP0_
+Bío Bío	NPCNG00_
+Bjarne Stroustrup	NPMSSP0_
+Bob Sinclar	NPMSSP0_
 Boca Juniors	NPMSG00_
+Bonnie Raitt	NPFSSP0_
 Bosanska Krajina	NPCNG00_
 Bosanski Brod	NPCNG00_
+Bram Moolenaar	NPMSSP0_
+Britney Spears	NPFSSP0_
+Brooke Shields	NPFSSP0_
 Burger King	NPCNO00_
-Bío Bío	NPCNG00_
 Cagayan de Oro	NPCNG00_
 Canet lo Roig	NPCNG00_
+Cantor-Medaille	NPFSSP0_
 Cape Coast	NPCNG00_
 Cargados Carajos	NPCNG00_
+Carl Friedrich	NPMSSP0_
+Friedrich Gauß	NPMSSP0_
 Carson City	NPCNG00_
 Cartagena de Indias	NPCNG00_
 Castel Gandolfo	NPCNG00_
+Cate Blanchett	NPFSSP0_
 Cayos de Florida	NPCNG00_
+Cédric Villani	NPMSSP0_
 Ceské Budejovice	NPCNG00_
+Charles-Édouard	NPMSSP0_
+Charlotte Brontë	NPFSSP0_
 Chiang Mai	NPCNG00_
 Chiang Rai	NPCNG00_
+Chris Isaak	NPMSSP0_
 Ciudad Juárez	NPCNG00_
 Ciudad Real	NPCNG00_
+Cliff Richard	NPMSSP0_
 Colúmbia Britànica	NPCNG00_
 Consell de Cent	NPMSO00_
 Cortes d'Arenós	NPFPG00_
 Cortes de Pallars	NPFPG00_
 Costa da Morte	NPFSG00_
 Costes d'Armor	NPFPG00_
+Courteney Cox	NPFSSP0_
 Cristiano Ronaldo	NPCNO00_
 Croix de Montvieux	NPFSG00_
+Cyndi Lauper	NPFSSP0_
 D'Hondt	NPCNSP0_
 Dakhlet Nouadhibou	NPCNG00_
 Dar es Salaam	NPCNG00_
 Darra-e Bum	NPCNG00_
-Der Spiegel	NPMSO00_
+Darth Vader	NPMSSP0_
+Debra Winger	NPFSSP0_
+Def Leppard	NPMSSP0_
 Deir ez-Zor	NPCNG00_
+Der Spiegel	NPMSO00_
 Des Moines	NPCNG00_
 Dien Bien Phu	NPCNG00_
+Dominique Strauss-Kahn	NPMSSP0_
+Donna Summer	NPFSSP0_
 Dos Valires	NPFPG00_
 Dvina Occidental	NPCNG00_
 Dvina Septentrional	NPCNG00_
 East Side	NPCNG00_
+Eddie Rabbitt	NPMSSP0_
+Edgar Allan	NPMSSP0_
+Allan Poe	NPMSSP0_
 El Corte Inglés	NPMSO00_
 El Ejido	NPMSG00_
 El Escorial	NPMSG00_
@@ -359,35 +402,88 @@ El Jueves	NPMSO00_
 El Mundo	NPMSO00_
 El Mundo Deportivo	NPMSO00_
 El Periódico	NPMSO00_
+Elisabeth Selbert	NPMSSP0_
+Elliott Gould	NPMSSP0_
 Elobey Chico	NPCNG00_
 Elobey Grande	NPCNG00_
+Erykah Badu	NPMSSP0_
 Espíritu Santo	NPCNG00_
 Estats Units	NPMPG00_
 Eth Portilhon	NPCSG00_
 Europa Press	NPCSO00_
 Euskal Herria	NPCNG00_
 FC Barcelona	NPMSG00_
+Forrest Gump	NPMSSP0_
 Fra Angelico	NPMSG00_
+France Gall	NPMSSP0_
+François Hollande	NPMSSP0_
+François Mitterrand	NPMSSP0_
 Frankfurt am Main	NPCSG00_
+Freddie Mercury	NPMSSP0_
+Freddy Krueger	NPMSSP0_
 Galileo Galilei	NPMSSP0_
+Georg Cantor	NPMSSP0_
+Gottfried Wilhelm	NPMSSP0_
+Wilhelm Leibniz	NPMSSP0_
+Gottlob Frege	NPMSSP0_
 Gracias a Dios	NPCNG00_
 Gran Bretanya	NPFSG00_
 Grand Canyon	NPCNG00_
+Grateful Dead	NPMSSP0_
+Groucho Marx	NPMSSP0_
 Guangxi Zhuang	NPCNG00_
+Guns N’Roses	NPMSSP0_
+Gustaf Gründgens	NPMSSP0_
+Gustav Mahler	NPMSSP0_
 Hai Phong	NPCNG00_
+Heinrich Friedrich	NPMSSP0_
+Friedrich Emil Lenz	NPMSSP0_
+Heinrich Rudolf Hertz	NPMSSP0_
+Helmut Kohl	NPMSSP0_
+Helmut Schmidt	NPMSSP0_
+Hendrik Antoon	NPMSSP0_
+Antoon Lorentz	NPMSSP0_
+Hermann Reutter	NPMSSP0_
 Hindu Kush	NPCNG00_
 Ho Chi Minh	NPCNG00_
 Hong Kong	NPCNG00_
 Hradec Králové	NPCNG00_
 Huang He	NPCNG00_
+Immanuel Kant	NPMSSP0_
 In Amenas	NPCNG00_
+Ingrid Betancourt	NPFSSP0_
+Jack Lang	NPMSSP0_
+Jamie Foxx	NPMSSP0_
+Jane Austen	NPFSSP0_
+Janis Joplin	NPFSSP0_
+Jean-Marc	NPMSSP0_
+Jeff Lynne	NPMSSP0_
 Jefferson City	NPCNG00_
-José María	NPMSSP0_
+Jennifer Aniston	NPFSSP0_
+Jerry Seinfeld	NPMSSP0_
+Jimi Hendrix	NPMSSP0_
+Jimmy Buffett	NPMSSP0_
+Jimmy Page	NPMSSP0_
+Jodie Foster	NPFSSP0_
+Johannes Gutenberg	NPMSSP0_
+John Entwistle	NPMSSP0_
+Jon Stewart	NPMSSP0_
+Jonah Lomu	NPMSSP0_
+Jonathan Franzen	NPMSSP0_
 José Luis	NPMSSP0_
+José María	NPMSSP0_
+Joseph Goebbels	NPMSSP0_
+Joseph Haydn	NPMSSP0_
 Joventut de Badalona	NPMSG00_
 Juan José	NPMSSP0_
+Justin Bieber	NPMSSP0_
 Kafr Kanna	NPCNG00_
+Kanye West	NPMSSP0_
+Karl Lagerfeld	NPMSSP0_
 Karlovy Vary	NPCNG00_
+Keira Knightley	NPFSSP0_
+Keith Jarrett	NPMSSP0_
+Keith Richards	NPMSSP0_
 Key Biscayne	NPCNG00_
 Khan Yunis	NPCNG00_
 Khemis Miliana	NPCNG00_
@@ -427,29 +523,64 @@ Le Mans	NPCNG00_
 Le Monde	NPMSO00_
 Le Pen	NPCNSP0_
 Le Puy-en-Velay	NPCNG00_
+Led Zeppelin	NPMSSP0_
+Lee Sedol	NPMSSP0_
+Leibniz Universität	NPMSSO0_
+Leibniz-Butterkeks	NPMSSP0_
+Leibniz-Kekse	NPMSSP0_
+Leonardo DiCaprio	NPMSSP0_
 Les Essarts	NPCNG00_
 Les Herbiers	NPCNG00_
 Les Rousses	NPCNG00_
+Liliane Bettencourt	NPFSSP0_
+Linus Torvalds	NPMSSP0_
+Lionel Richie	NPMSSP0_
 Little Rock	NPCNG00_
+Liza Minnelli	NPFSSP0_
 Long Island	NPCNG00_
+Lorenz-Eichung	NPMSSP0_
+Lorenz-Mie-Streuung	NPMSSP0_
 Los Angeles	NPCNG00_
+Ludvig Valentin	NPMSSP0_
+Valentin Lorenz	NPMSSP0_
+Lyle Lovett	NPMSSP0_
+Lynyrd Skynyrd	NPMSSP0_
 Mae Sai	NPCNG00_
 Manchester United	NPMSG00_
+Manuel Valls	NPMSSP0_
 Mare Nostrum	NPMSG00_
-Mariánské Lázne	NPCNG00_
-Mariano Rajoy	NPMSSP0_
 María José	NPFSSP0_
+Mariah Carey	NPFSSP0_
+Mariano Rajoy	NPMSSP0_
+Mariánské Lázne	NPCNG00_
+Marina Weisband	NPFSSP0_
 Marktl am Inn	NPCNG00_
+Martin Scorsese	NPMSSP0_
+Marx Brothers	NPMSSP0_
 Mato Grosso	NPCNG00_
+Max Brod	NPMSSP0_
 Mazar-e Sharif	NPCNG00_
+Meryl Streep	NPFSSP0_
+Michel Delpech	NPMSSP0_
+Michel Fugain	NPMSSP0_
+Micky Dolenz	NPMSSP0_
 Miguel de Unamuno	NPMSG00_
 Minas Gerais	NPCNG00_
-Montego Bay	NPCNG00_
+Missy Elliott	NPFSSP0_
 Mónica Oltra	NPFSG00_
+Montego Bay	NPCNG00_
 Nagorno Karabakh	NPCNG00_
+Natalie Cole	NPFSSP0_
+Natalie Dormer	NPFSSP0_
+Natalie Imbruglia	NPFSSP0_
+Natalie Portman	NPFSSP0_
+Natalie Wood	NPFSSP0_
+Nelson Mandela	NPMSSP0_
 Neuhausen am Rheinfall	NPCNG00_
 New Providence	NPCNG00_
 New York Times	NPMSO00_
+Nicki Minaj	NPFSSP0_
+Nicolas Cage	NPMSSP0_
 Ningxia Hui	NPCNG00_
 Nou Hampshire	NPCNG00_
 Nova Jersey	NPCNG00_
@@ -458,8 +589,11 @@ Old Trafford	NPMSG00_
 Opus Dei	NPMSO00_
 Ortega y Gasset	NPMSSP0_
 Ossama bin Laden	NPMSSP0_
+Ozzy Osbourne	NPMSSP0_
 Phnom Penh	NPCNG00_
 Picos de Europa	NPMPG00_
+Pierre-Gilles de Gennes	NPMSSP0_
+Pierre-Yves	NPMSSP0_
 Ploski Tolbàtxik	NPCNG00_
 Port Louis	NPCSG00_
 Port Moresby	NPCSG00_
@@ -471,21 +605,32 @@ Puerta del Sol	NPFSG00_
 Puerto Rico	NPMSG00_
 Punta Arenas	NPCNG00_
 Ramón y Cajal	NPCNSP0_
+Randy Rhoads	NPMSSP0_
 Ras Ajdir	NPCNG00_
-Ras Lanuf	NPCNG00_
 Ras al-Khaimah	NPCNG00_
+Ras Lanuf	NPCNG00_
 Red River	NPCNG00_
 Reggio de Calàbria	NPCNG00_
 Reggio de l'Emília	NPCNG00_
+Reineke Fuchs	NPMSSP0_
+Richard Stallman	NPMSSP0_
+Rickie Lee	NPMSSP0_
+Lee Jones	NPMSSP0_
+Ringo Starr	NPMSSP0_
 Rio de Janeiro	NPMSG00_
+Río de la Plata	NPMSG00_
 Robin Hood	NPMNG00_
+Roger Hodgson	NPMSSP0_
+Ronnie Van Zant	NPMSSP0_
 Roquetas de Mar	NPCNG00_
 Rub al-Khali	NPCNG00_
-Río de la Plata	NPMSG00_
+Russellsche Antinomie	NPMSSP0_
 Sadr City	NPCNG00_
+Sahra Wagenknecht	NPFSSP0_
 Saint George's	NPCNG00_
-Saint Louis	NPCNG00_
 Saint Germain	NPCNG00_
+Saint Louis	NPCNG00_
+Salma Hayek	NPFSSP0_
 Salt Lake City	NPCNG00_
 San Diego	NPCNG00_
 San Francisco	NPCNG00_
@@ -507,12 +652,24 @@ São Paulo	NPCSG00_
 São Tiago	NPCSG00_
 Sao Tomé e Príncipe	NPMSG00_
 Sao Vicente	NPCSG00_
+Scarlett Johansson	NPFSSP0_
+Ségolène Royal	NPMSSP0_
 Sharm al-Sheikh	NPCNG00_
+Sheryl Crow	NPFSSP0_
+Shia LaBeouf	NPFSSP0_
+Sid Vicious	NPMSSP0_
 Sidi Bouzid	NPCNG00_
 Sierra Leone	NPFSG00_
 Silicon Valley	NPCSG00_
 Son Servera	NPCNG00_
+Sophia Loren	NPFSSP0_
+Spider-Man	NPMSSP0_
 Staten Island	NPCNG00_
+Steffi Graf	NPMSSP0_
+Stephenie Meyer	NPFSSP0_
+Steve Ballmer	NPMSSP0_
+Steve Carell	NPMSSP0_
+Steve Jobs	NPMSSP0_
 Sun Yat-sen	NPMSG00_
 Super Bowl	NP_GN_FN
 Taj Mahal	NPMSG00_
@@ -528,20 +685,32 @@ The Telegraph	NPMSO00_
 The Times	NPMSO00_
 The Wall Street Journal	NPMSO00_
 The Washington Post	NPMSO00_
-Tristão da Cunha	NPCNG00_
-Tuxtla Gutiérrez	NPCNG00_
+Thom Yorke	NPMSSP0_
+Til Schweiger	NPMSSP0_
 Tîrgu Mures	NPCNG00_
+Tristão da Cunha	NPCNG00_
+Tupac Shakur	NPMSSP0_
+Tuxtla Gutiérrez	NPCNG00_
 Ulan Bator	NPCNG00_
+Ulrike Meinhof	NPMSSP0_
 Umm al-Qaywayn	NPCNG00_
 US Open	NPMSG00_
+Usain Bolt	NPMS000_
 València CF	NPMSG00_
+Valéry Giscard	NPMSSP0_
 Vanua Levu	NPCNG00_
 Veliko Tarnovo	NPCNG00_
 Venta del Moro	NPFSG00_
 Villa Cisneros	NPCNG00_
 Villa La Angostura	NPCNG00_
 Viti Levu	NPCNG00_
+Warren Buffett	NPMSSP0_
+Weird Al Yankovic	NPMSSP0_
+Whoopi Goldberg	NPFSSP0_
+Will Ferrell	NPMSSP0_
 Xi Jiang	NPCNG00_
+Yann Tiersen	NPMSSP0_
+Zarah Leander	NPFSSP0_
 Zareh Sharan	NPCNG00_
 
 #########################################################################
@@ -949,6 +1118,7 @@ entre nous	L_FRENCH_
 épater la	L_FRENCH_
 esprit de	L_FRENCH_
 est tout	L_FRENCH_
+et voilà	L_FRENCH_
 fait accompli	L_FRENCH_
 fait rien	L_FRENCH_
 faute de	L_FRENCH_
@@ -1098,12 +1268,25 @@ Zut alors	I
 Acanthamoeba castellanii	NPCN000_
 Acanthamoeba sp	NPCN000_
 Acanthamoeba spp	NPCN000_
+Acetobacter aurantius	NPCN000_
+Acetobacter sp	NPCN000_
+Acetobacter spp	NPCN000_
+Acinetobacter baumannii	NPCN000_
+Acinetobacter sp	NPCN000_
+Acinetobacter spp	NPCN000_
+Actinomyces israelii	NPCN000_
+Actinomyces sp	NPCN000_
+Actinomyces spp	NPCN000_
 Aedes aegypti	NPCN000_
 Aedes sp	NPCN000_
 Aedes spp	NPCN000_
 Aegilops sp	NPCN000_
 Aegilops spp	NPCN000_
 Aegilops tauschii	NPCN000_
+Agrobacterium radiobacter	NPCN000_
+Agrobacterium sp	NPCN000_
+Agrobacterium spp	NPCN000_
+Agrobacterium tumefaciens	NPCN000_
 Albugo candidalbugo	NPCN000_
 Albugo sp	NPCN000_
 Albugo spp	NPCN000_
@@ -1113,6 +1296,9 @@ Amborella trichopodarabidopsis	NPCN000_
 Amphimedon queenslandicanopheles	NPCN000_
 Amphimedon sp	NPCN000_
 Amphimedon spp	NPCN000_
+Anaplasma phagocytophilum	NPCN000_
+Anaplasma sp	NPCN000_
+Anaplasma spp	NPCN000_
 Anas platyrhynchos	NPCN000_
 Anas sp	NPCN000_
 Anas spp	NPCN000_
@@ -1142,11 +1328,33 @@ Astyanax spp	NPCN000_
 Aureococcus anophagefferens	NPCN000_
 Aureococcus sp	NPCN000_
 Aureococcus spp	NPCN000_
+Azorhizobium caulinodans	NPCN000_
+Azorhizobium sp	NPCN000_
+Azorhizobium spp	NPCN000_
+Azotobacter sp	NPCN000_
+Azotobacter spp	NPCN000_
+Azotobacter vinelandii	NPCN000_
 Babesia bigemina	NPCN000_
 Babesia bovis	NPCN000_
 Babesia microti	NPCN000_
 Babesia sp	NPCN000_
 Babesia spp	NPCN000_
+Bacillus anthracis	NPCN000_
+Bacillus brevis	NPCN000_
+Bacillus cereus	NPCN000_
+Bacillus fusiformis	NPCN000_
+Bacillus licheniformis	NPCN000_
+Bacillus megaterium	NPCN000_
+Bacillus mycoides	NPCN000_
+Bacillus sp	NPCN000_
+Bacillus spp	NPCN000_
+Bacillus stearothermophilus	NPCN000_
+Bacillus subtilis	NPCN000_
+Bacteroides fragilis	NPCN000_
+Bacteroides gingivalis	NPCN000_
+Bacteroides melaninogenicus	NPCN000_
+Bacteroides sp	NPCN000_
+Bacteroides spp	NPCN000_
 Balaena mysticetus	NPCN000_
 Balaena sp	NPCN000_
 Balaena spp	NPCN000_
@@ -1163,6 +1371,10 @@ Balaenoptera spp	NPCN000_
 Barbastella barbastellus	NPCN000_
 Barbastella sp	NPCN000_
 Barbastella spp	NPCN000_
+Bartonella henselae	NPCN000_
+Bartonella quintana	NPCN000_
+Bartonella sp	NPCN000_
+Bartonella spp	NPCN000_
 Belgica antarctica	NPCN000_
 Belgica sp	NPCN000_
 Belgica spp	NPCN000_
@@ -1188,6 +1400,13 @@ Bombus spp	NPCN000_
 Bombyx mori	NPCN000_
 Bombyx sp	NPCN000_
 Bombyx spp	NPCN000_
+Bordetella bronchiseptica	NPCN000_
+Bordetella pertussis	NPCN000_
+Bordetella sp	NPCN000_
+Bordetella spp	NPCN000_
+Borrelia burgdorferi	NPCN000_
+Borrelia sp	NPCN000_
+Borrelia spp	NPCN000_
 Bos sp	NPCN000_
 Bos spp	NPCN000_
 Bos taurus	NPCN000_
@@ -1199,9 +1418,19 @@ Brassica oleracea	NPCN000_
 Brassica rapa	NPCN000_
 Brassica sp	NPCN000_
 Brassica spp	NPCN000_
+Brucella abortus	NPCN000_
+Brucella melitensis	NPCN000_
+Brucella sp	NPCN000_
+Brucella spp	NPCN000_
+Brucella suis	NPCN000_
 Brugia malayi	NPCN000_
 Brugia sp	NPCN000_
 Brugia spp	NPCN000_
+Burkholderia cepacia	NPCN000_
+Burkholderia mallei	NPCN000_
+Burkholderia pseudomallei	NPCN000_
+Burkholderia sp	NPCN000_
+Burkholderia spp	NPCN000_
 Caenorhabditis brenneri	NPCN000_
 Caenorhabditis briggsae	NPCN000_
 Caenorhabditis elegans	NPCN000_
@@ -1211,6 +1440,15 @@ Caenorhabditis spp	NPCN000_
 Callithrix jacchus	NPCN000_
 Callithrix sp	NPCN000_
 Callithrix spp	NPCN000_
+Calymmatobacterium granulomatis	NPCN000_
+Calymmatobacterium sp	NPCN000_
+Calymmatobacterium spp	NPCN000_
+Campylobacter coli	NPCN000_
+Campylobacter fetus	NPCN000_
+Campylobacter jejuni	NPCN000_
+Campylobacter pylori	NPCN000_
+Campylobacter sp	NPCN000_
+Campylobacter spp	NPCN000_
 Canis lupus	NPCN000_
 Canis sp	NPCN000_
 Canis spp	NPCN000_
@@ -1247,9 +1485,16 @@ Ceratotherium spp	NPCN000_
 Cervus elaphus	NPCN000_
 Cervus sp	NPCN000_
 Cervus spp	NPCN000_
+Chlamydia sp	NPCN000_
+Chlamydia spp	NPCN000_
+Chlamydia trachomatis	NPCN000_
 Chlamydomonas reinhardtii	NPCN000_
 Chlamydomonas sp	NPCN000_
 Chlamydomonas spp	NPCN000_
+Chlamydophila pneumoniae	NPCN000_
+Chlamydophila psittaci	NPCN000_
+Chlamydophila sp	NPCN000_
+Chlamydophila spp	NPCN000_
 Chlorocebus sabaeus	NPCN000_
 Chlorocebus sp	NPCN000_
 Chlorocebus spp	NPCN000_
@@ -1269,6 +1514,19 @@ Ciona intestinalis	NPCN000_
 Ciona savignyi	NPCN000_
 Ciona sp	NPCN000_
 Ciona spp	NPCN000_
+Clostridium botulinum	NPCN000_
+Clostridium difficile	NPCN000_
+Clostridium perfringens	NPCN000_
+Clostridium sp	NPCN000_
+Clostridium spp	NPCN000_
+Clostridium tetani	NPCN000_
+Corynebacterium diphtheriae	NPCN000_
+Corynebacterium fusiforme	NPCN000_
+Corynebacterium sp	NPCN000_
+Corynebacterium spp	NPCN000_
+Coxiella burnetii	NPCN000_
+Coxiella sp	NPCN000_
+Coxiella spp	NPCN000_
 Crassostrea gigas	NPCN000_
 Crassostrea sp	NPCN000_
 Crassostrea spp	NPCN000_
@@ -1350,6 +1608,9 @@ Dwarf spp	NPCN000_
 Echinops sp	NPCN000_
 Echinops spp	NPCN000_
 Echinops telfairi	NPCN000_
+Ehrlichia chaffeensis	NPCN000_
+Ehrlichia sp	NPCN000_
+Ehrlichia spp	NPCN000_
 Eimeria acervulina	NPCN000_
 Eimeria brunetti	NPCN000_
 Eimeria maxima	NPCN000_
@@ -1371,6 +1632,17 @@ Entamoeba invadens	NPCN000_
 Entamoeba nuttalli	NPCN000_
 Entamoeba sp	NPCN000_
 Entamoeba spp	NPCN000_
+Enterobacter cloacae	NPCN000_
+Enterobacter sp	NPCN000_
+Enterobacter spp	NPCN000_
+Enterococcus avium	NPCN000_
+Enterococcus durans	NPCN000_
+Enterococcus faecalis	NPCN000_
+Enterococcus faecium	NPCN000_
+Enterococcus galllinarum	NPCN000_
+Enterococcus maloratus	NPCN000_
+Enterococcus sp	NPCN000_
+Enterococcus spp	NPCN000_
 Eptesicus serotinus	NPCN000_
 Eptesicus sp	NPCN000_
 Eptesicus spp	NPCN000_
@@ -1383,6 +1655,9 @@ Erignathus spp	NPCN000_
 Erinaceus europaeus	NPCN000_
 Erinaceus sp	NPCN000_
 Erinaceus spp	NPCN000_
+Escherichia coli	NPCN000_
+Escherichia sp	NPCN000_
+Escherichia spp	NPCN000_
 Eschrichtius robustus	NPCN000_
 Eschrichtius sp	NPCN000_
 Eschrichtius spp	NPCN000_
@@ -1410,6 +1685,12 @@ Fissipeds spp	NPCN000_
 Fonticula alba	NPCN000_
 Fonticula sp	NPCN000_
 Fonticula spp	NPCN000_
+Francisella sp	NPCN000_
+Francisella spp	NPCN000_
+Francisella tularensis	NPCN000_
+Fusobacterium nucleatum	NPCN000_
+Fusobacterium sp	NPCN000_
+Fusobacterium spp	NPCN000_
 Gadus morhua	NPCN000_
 Gadus sp	NPCN000_
 Gadus spp	NPCN000_
@@ -1422,6 +1703,9 @@ Galemys spp	NPCN000_
 Gallus gallus	NPCN000_
 Gallus sp	NPCN000_
 Gallus spp	NPCN000_
+Gardnerella sp	NPCN000_
+Gardnerella spp	NPCN000_
+Gardnerella vaginalis	NPCN000_
 Gasterosteus aculeatus	NPCN000_
 Gasterosteus sp	NPCN000_
 Gasterosteus spp	NPCN000_
@@ -1451,9 +1735,19 @@ Gregarina spp	NPCN000_
 Guillardia sp	NPCN000_
 Guillardia spp	NPCN000_
 Guillardia theta	NPCN000_
+Haemophilus ducreyi	NPCN000_
+Haemophilus influenzae	NPCN000_
+Haemophilus parainfluenzae	NPCN000_
+Haemophilus pertussis	NPCN000_
+Haemophilus sp	NPCN000_
+Haemophilus spp	NPCN000_
+Haemophilus vaginalis	NPCN000_
 Hammondia hammondi	NPCN000_
 Hammondia sp	NPCN000_
 Hammondia spp	NPCN000_
+Helicobacter pylori	NPCN000_
+Helicobacter sp	NPCN000_
+Helicobacter spp	NPCN000_
 Heliconius melpomene	NPCN000_
 Heliconius sp	NPCN000_
 Heliconius spp	NPCN000_
@@ -1504,10 +1798,21 @@ Inia spp	NPCN000_
 Ixodes scapularis	NPCN000_
 Ixodes sp	NPCN000_
 Ixodes spp	NPCN000_
+Klebsiella pneumoniae	NPCN000_
+Klebsiella sp	NPCN000_
+Klebsiella spp	NPCN000_
 Kogia breviceps	NPCN000_
 Kogia sima	NPCN000_
 Kogia sp	NPCN000_
 Kogia spp	NPCN000_
+Lactobacillus acidophilus	NPCN000_
+Lactobacillus bulgaricus	NPCN000_
+Lactobacillus casei	NPCN000_
+Lactobacillus sp	NPCN000_
+Lactobacillus spp	NPCN000_
+Lactococcus lactis	NPCN000_
+Lactococcus sp	NPCN000_
+Lactococcus spp	NPCN000_
 Lagenodelphis hosei	NPCN000_
 Lagenodelphis sp	NPCN000_
 Lagenodelphis spp	NPCN000_
@@ -1525,6 +1830,9 @@ Latimeria spp	NPCN000_
 Leersia perrieri	NPCN000_
 Leersia sp	NPCN000_
 Leersia spp	NPCN000_
+Legionella pneumophila	NPCN000_
+Legionella sp	NPCN000_
+Legionella spp	NPCN000_
 Leishmania braziliensis	NPCN000_
 Leishmania donovani	NPCN000_
 Leishmania infantum	NPCN000_
@@ -1552,6 +1860,9 @@ Lingula spp	NPCN000_
 Lipotes sp	NPCN000_
 Lipotes spp	NPCN000_
 Lipotes vexillifer	NPCN000_
+Listeria monocytogenes	NPCN000_
+Listeria sp	NPCN000_
+Listeria spp	NPCN000_
 Loa loa	NPCN000_
 Loa sp	NPCN000_
 Loa spp	NPCN000_
@@ -1621,9 +1932,18 @@ Mesoplodon sp	NPCN000_
 Mesoplodon spp	NPCN000_
 Mesoplodon stejnegeri	NPCN000_
 Mesoplodon traversii	NPCN000_
+Methanobacterium extroquens	NPCN000_
+Methanobacterium sp	NPCN000_
+Methanobacterium spp	NPCN000_
+Microbacterium multiforme	NPCN000_
+Microbacterium sp	NPCN000_
+Microbacterium spp	NPCN000_
 Microcebus murinus	NPCN000_
 Microcebus sp	NPCN000_
 Microcebus spp	NPCN000_
+Micrococcus luteus	NPCN000_
+Micrococcus sp	NPCN000_
+Micrococcus spp	NPCN000_
 Microtus agrestis	NPCN000_
 Microtus cabrerae	NPCN000_
 Microtus duodecimcostatus	NPCN000_
@@ -1649,6 +1969,9 @@ Monodon spp	NPCN000_
 Monosiga brevicollis	NPCN000_
 Monosiga sp	NPCN000_
 Monosiga spp	NPCN000_
+Moraxella catarrhalis	NPCN000_
+Moraxella sp	NPCN000_
+Moraxella spp	NPCN000_
 Mus musculus	NPCN000_
 Mus sp	NPCN000_
 Mus spp	NPCN000_
@@ -1661,6 +1984,24 @@ Mustela nivalis	NPCN000_
 Mustela putorius	NPCN000_
 Mustela sp	NPCN000_
 Mustela spp	NPCN000_
+Mycobacterium avium	NPCN000_
+Mycobacterium bovis	NPCN000_
+Mycobacterium diphtheriae	NPCN000_
+Mycobacterium intracellulare	NPCN000_
+Mycobacterium leprae	NPCN000_
+Mycobacterium lepraemurium	NPCN000_
+Mycobacterium phlei	NPCN000_
+Mycobacterium smegmatis	NPCN000_
+Mycobacterium sp	NPCN000_
+Mycobacterium spp	NPCN000_
+Mycobacterium tuberculosis	NPCN000_
+Mycoplasma fermentans	NPCN000_
+Mycoplasma genitalium	NPCN000_
+Mycoplasma hominis	NPCN000_
+Mycoplasma penetrans	NPCN000_
+Mycoplasma pneumoniae	NPCN000_
+Mycoplasma sp	NPCN000_
+Mycoplasma spp	NPCN000_
 Myotis bechsteini	NPCN000_
 Myotis daubentonii	NPCN000_
 Myotis emarginatus	NPCN000_
@@ -1680,6 +2021,10 @@ Nannochloropsis spp	NPCN000_
 Nasonia sp	NPCN000_
 Nasonia spp	NPCN000_
 Nasonia vitripennis	NPCN000_
+Neisseria gonorrhoeae	NPCN000_
+Neisseria meningitidis	NPCN000_
+Neisseria sp	NPCN000_
+Neisseria spp	NPCN000_
 Nematostella sp	NPCN000_
 Nematostella spp	NPCN000_
 Nematostella vectensis	NPCN000_
@@ -1763,6 +2108,10 @@ Papio spp	NPCN000_
 Paramecium sp	NPCN000_
 Paramecium spp	NPCN000_
 Paramecium tetraurelia	NPCN000_
+Pasteurella multocida	NPCN000_
+Pasteurella sp	NPCN000_
+Pasteurella spp	NPCN000_
+Pasteurella tularensis	NPCN000_
 Paulinella chromatophora	NPCN000_
 Paulinella sp	NPCN000_
 Paulinella spp	NPCN000_
@@ -1862,6 +2211,12 @@ Pontoporia spp	NPCN000_
 Populus sp	NPCN000_
 Populus spp	NPCN000_
 Populus trichocarpa	NPCN000_
+Porphyromonas gingivalis	NPCN000_
+Porphyromonas sp	NPCN000_
+Porphyromonas spp	NPCN000_
+Prevotella melaninogenica	NPCN000_
+Prevotella sp	NPCN000_
+Prevotella spp	NPCN000_
 Pristionchus pacificus	NPCN000_
 Pristionchus sp	NPCN000_
 Pristionchus spp	NPCN000_
@@ -1874,6 +2229,9 @@ Prunus spp	NPCN000_
 Pseudocohnilembus persalinus	NPCN000_
 Pseudocohnilembus sp	NPCN000_
 Pseudocohnilembus spp	NPCN000_
+Pseudomonas aeruginosa	NPCN000_
+Pseudomonas sp	NPCN000_
+Pseudomonas spp	NPCN000_
 Pseudorca crassidens	NPCN000_
 Pseudorca sp	NPCN000_
 Pseudorca spp	NPCN000_
@@ -1904,12 +2262,34 @@ Rhinolophus hipposideros	NPCN000_
 Rhinolophus mehelyi	NPCN000_
 Rhinolophus sp	NPCN000_
 Rhinolophus spp	NPCN000_
+Rhizobium radiobacter	NPCN000_
+Rhizobium sp	NPCN000_
+Rhizobium spp	NPCN000_
 Rhodnius prolixusarcoptes	NPCN000_
 Rhodnius sp	NPCN000_
 Rhodnius spp	NPCN000_
+Rickettsia prowazekii	NPCN000_
+Rickettsia psittaci	NPCN000_
+Rickettsia quintana	NPCN000_
+Rickettsia rickettsii	NPCN000_
+Rickettsia sp	NPCN000_
+Rickettsia spp	NPCN000_
+Rickettsia trachomae	NPCN000_
+Rochalimaea henselae	NPCN000_
+Rochalimaea quintana	NPCN000_
+Rochalimaea sp	NPCN000_
+Rochalimaea spp	NPCN000_
+Rothia dentocariosa	NPCN000_
+Rothia sp	NPCN000_
+Rothia spp	NPCN000_
 Saccharomyces cerevisiae	NPCN000_
 Saccharomyces sp	NPCN000_
 Saccharomyces spp	NPCN000_
+Salmonella enteritidis	NPCN000_
+Salmonella sp	NPCN000_
+Salmonella spp	NPCN000_
+Salmonella typhi	NPCN000_
+Salmonella typhimurium	NPCN000_
 Saprolegnia diclina	NPCN000_
 Saprolegnia parasitica	NPCN000_
 Saprolegnia sp	NPCN000_
@@ -1926,9 +2306,15 @@ Sciurus vulgaris	NPCN000_
 Selaginella moellendorffii	NPCN000_
 Selaginella sp	NPCN000_
 Selaginella spp	NPCN000_
+Serratia marcescens	NPCN000_
+Serratia sp	NPCN000_
+Serratia spp	NPCN000_
 Setaria italica	NPCN000_
 Setaria sp	NPCN000_
 Setaria spp	NPCN000_
+Shigella dysenteriae	NPCN000_
+Shigella sp	NPCN000_
+Shigella spp	NPCN000_
 Solanum lycopersicum	NPCN000_
 Solanum sp	NPCN000_
 Solanum spp	NPCN000_
@@ -1959,6 +2345,10 @@ Sphaeroforma spp	NPCN000_
 Spironucleus salmonicida	NPCN000_
 Spironucleus sp	NPCN000_
 Spironucleus spp	NPCN000_
+Staphylococcus aureus	NPCN000_
+Staphylococcus epidermidis	NPCN000_
+Staphylococcus sp	NPCN000_
+Staphylococcus spp	NPCN000_
 Stegodyphus mimosarum	NPCN000_
 Stegodyphus sp	NPCN000_
 Stegodyphus spp	NPCN000_
@@ -1970,6 +2360,30 @@ Steno bredanensis	NPCN000_
 Steno bredanensistenella	NPCN000_
 Steno sp	NPCN000_
 Steno spp	NPCN000_
+Stenotrophomonas maltophilia	NPCN000_
+Stenotrophomonas sp	NPCN000_
+Stenotrophomonas spp	NPCN000_
+Streptococcus agalactiae	NPCN000_
+Streptococcus avium	NPCN000_
+Streptococcus bovis	NPCN000_
+Streptococcus cricetus	NPCN000_
+Streptococcus faceium	NPCN000_
+Streptococcus faecalis	NPCN000_
+Streptococcus ferus	NPCN000_
+Streptococcus gallinarum	NPCN000_
+Streptococcus lactis	NPCN000_
+Streptococcus mitior	NPCN000_
+Streptococcus mitis	NPCN000_
+Streptococcus mutans	NPCN000_
+Streptococcus oralis	NPCN000_
+Streptococcus pneumoniae	NPCN000_
+Streptococcus pyogenes	NPCN000_
+Streptococcus rattus	NPCN000_
+Streptococcus salivarius	NPCN000_
+Streptococcus sanguis	NPCN000_
+Streptococcus sobrinus	NPCN000_
+Streptococcus sp	NPCN000_
+Streptococcus spp	NPCN000_
 Strigamia maritima	NPCN000_
 Strigamia sp	NPCN000_
 Strigamia spp	NPCN000_
@@ -2034,6 +2448,10 @@ Theobroma spp	NPCN000_
 Toxoplasma gondii	NPCN000_
 Toxoplasma sp	NPCN000_
 Toxoplasma spp	NPCN000_
+Treponema denticola	NPCN000_
+Treponema pallidum	NPCN000_
+Treponema sp	NPCN000_
+Treponema spp	NPCN000_
 Tribolium castaneum	NPCN000_
 Tribolium sp	NPCN000_
 Tribolium spp	NPCN000_
@@ -2070,6 +2488,12 @@ Ursus arctos	NPCN000_
 Ursus maritimus	NPCN000_
 Ursus sp	NPCN000_
 Ursus spp	NPCN000_
+Vibrio cholerae	NPCN000_
+Vibrio comma	NPCN000_
+Vibrio parahaemolyticus	NPCN000_
+Vibrio sp	NPCN000_
+Vibrio spp	NPCN000_
+Vibrio vulnificus	NPCN000_
 Vicugna pacos	NPCN000_
 Vicugna sp	NPCN000_
 Vicugna spp	NPCN000_
@@ -2088,6 +2512,11 @@ Xenopus tropicalis	NPCN000_
 Xiphophorus maculatus	NPCN000_
 Xiphophorus sp	NPCN000_
 Xiphophorus spp	NPCN000_
+Yersinia enterocolitica	NPCN000_
+Yersinia pestis	NPCN000_
+Yersinia pseudotuberculosis	NPCN000_
+Yersinia sp	NPCN000_
+Yersinia spp	NPCN000_
 Zea mays	NPCN000_
 Zea sp	NPCN000_
 Zea spp	NPCN000_
