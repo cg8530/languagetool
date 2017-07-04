@@ -18793,6 +18793,13 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
         </rule>
         <rulegroup id="VERBS_NOMSPROPIS" name="verbs / noms propis: Barbara, Macàs, Adoram">
             <rule>
+                <pattern case_sensitive="yes">
+                    <token regexp="yes">Collegis?|COLLEGIS?</token>
+                </pattern>
+                <message>¿Volíeu dir <suggestion>Col·legi</suggestion>?</message>
+                <example correction="Col·legi"><marker>Collegi</marker> Superior.</example>
+            </rule>
+            <rule>
                 <pattern>
                     <and>
                         <token postag="V.{6}[VBZ34567]" postag_regexp="yes"><exception postag="V.{6}[0CXY12]|V.SP...V|N.*|AQ.*|SPS00|RG|.*_GN_.*|&lt;/?NP.*" postag_regexp="yes"/><exception regexp="yes">vinga|aviam|contacte|africa</exception></token>
@@ -26289,6 +26296,20 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
         </rulegroup>
     </category>
     <category id="INCORRECT_EXPRESSIONS" name="Expressions incorrectes" type="grammar">
+        <rule id="I_PICO" name="*i pico">
+            <pattern>
+                <token postag="DN.*" postag_regexp="yes"/>
+                <marker>
+                    <token>i</token>
+                    <token>pico</token>
+                </marker>
+            </pattern>
+            <message>Expressió incorrecta.</message>
+            <suggestion>i escaig</suggestion>
+            <suggestion>i busques</suggestion>
+            <example correction="i escaig|i busques">cinquanta <marker>i pico</marker>.</example>
+            <example correction="i escaig|i busques">60 <marker>i pico</marker>.</example>
+        </rule>
         <rule id="MUNTAR EN CÒLERA" name="*muntar en còlera">
             <pattern>
                 <marker>
@@ -33257,6 +33278,13 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
     <category id="INCORRECT_WORDS_IN_CONTEXT" name="Paraules incorrectes segons el context" type="grammar">
         <!-- #nomenar/anomenar
             (?i)nomen.+ (?i)anomen.+    nom anom    (?i)càrrecs?|senadors?|.*presidents?|diputa.*|.*conseller.*|.*ministre.*|.*director.*|capit.+|.*general.*|vicari.*|rector.*|.*bisbe.*|alcalde.*|batl?le.*|tribunals?|consell|comit[éè]s?|entrenador.*|encarrega[td].*   ddXd,6dDd3d designar per a un càrrec    donar nom -->
+        <rule id="RAMERA" name="ramera">
+            <pattern>
+                <token inflected="yes">ramera</token>
+            </pattern>
+            <message>¿Volíeu dir <suggestion><match no="1" postag="(NCF.*)" postag_regexp="yes" postag_replace="$1">prostituta</match></suggestion>? Correcte en el sentit de <suggestion><match no="1" postag="NCF(.*)" postag_regexp="yes" postag_replace="NCM$1">brancatge</match></suggestion>.</message>
+            <example correction="prostitutes|brancatges">Les <marker>rameres</marker>.</example>
+        </rule>
         <rule id="GOT_VAS" name="*got/vas sanguini">
             <pattern>
                 <marker>
@@ -39328,7 +39356,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
                 <marker>
                     <token>sens<exception postag="_possible_nompropi"/></token>
                 </marker>
-                <token><exception regexp="yes">dubte|falta|fi|mesura|nombre|parió</exception></token>
+                <token><exception regexp="yes">dubte|falta|fi|mesura|nombre|parió|perjudici|perjuí</exception></token>
             </pattern>
             <message>Normalment s'escriu <suggestion>sense</suggestion>.</message>
             <example correction="sense">Una pel·lícula <marker>sens</marker> interès.</example>
