@@ -12485,6 +12485,7 @@ gelinderes
 gelutscht/A
 Gestaltbarkeit
 gewebsspezifisch/A
+Gilgamesch
 Gräberntunnel/S
 gruppenteilig/A
 Hörweitenprüfung
@@ -12533,8 +12534,8 @@ Koronarangiographie
 Krüselwind/S
 Lafnitz
 Lafnitztal/S
-Laktatmesssung
-Laktatmesssungen
+Laktatmessung
+Laktatmessungen
 Lebenszykluskosten
 Leberfibrogenese
 lernmethodisch/A
@@ -12732,3 +12733,4 @@ vakuumiert/A
 vakuumiertest
 vakuumiertet
 vakuumierend/A
+Add-on/S
